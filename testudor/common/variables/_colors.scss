@@ -1,0 +1,76 @@
+//------------------
+$color-sk-1: #1E2126;
+$color-sk-2: #313640;
+$color-sk-3: #989DA6;
+$color-sk-4: #F2ECEB;
+$color-sk-5: #D95555;
+$color-sk-6: #3B82BF;
+$color-sk-7: #D9BD6A;
+$color-sk-8: #7EE8FA;
+$color-sk-9: #17B890;
+$color-sk-10: #820263;
+$color-sk-11: #F4D35E;
+//COLORS
+$orange: $color-sk-11;
+$yellow: $color-sk-7;
+$green: $color-sk-9;
+$cyan: $color-sk-8;
+$blue: $color-sk-6;
+$purple: $color-sk-10;
+$red: $color-sk-5;
+//---
+$primary: $blue !default;
+//BODY
+$body-background-color: $color-sk-1;
+$body-color: $color-sk-4;
+$title-color: $color-sk-4;
+//BOX
+$box-background-color: $color-sk-2;
+$box-color: $color-sk-4;
+//CONTENT
+$content-heading-color: $color-sk-4;
+//SUBTITLE
+$subtitle-color: $color-sk-3;
+//MENU
+$menu-label-color: $color-sk-4;
+$menu-item-color: $color-sk-4;
+//BLOCKQUOTE
+$content-blockquote-background-color: $color-sk-2;
+//STRONG
+$strong-color: $color-sk-4;
+//HR
+$hr-background-color: $color-sk-2;
+//TABLE
+$content-table-head-cell-color: $color-sk-4;
+$table-background-color: $color-sk-2;
+$table-head-cell-color: $color-sk-4;
+$table-color: $color-sk-4;
+$table-striped-row-even-background-color: $color-sk-1;
+//LABEL
+$label-color: $color-sk-4;
+//NOTIFICATION
+$notification-background-color: $color-sk-2;
+//BUTTON
+$button-background-color: $color-sk-2;
+$button-color: $color-sk-4;
+$button-hover-color: $color-sk-4;
+$button-border-color: lighten($color-sk-2, 10%);
+$button-active-color: lighten($color-sk-2, 20%);
+$button-focus-color: $color-sk-4;
+//LINK
+$link: $cyan;
+$link-hover: darken($link, 25%);
+//NAVBAR
+$navbar-background-color: $color-sk-2;
+$navbar-dropdown-background-color: $color-sk-2;
+$navbar-item-color: $color-sk-4;
+//FOOTER
+$footer-background-color: $color-sk-2;
+//INPUT
+$input-background-color: $color-sk-2;
+$input-border-color: lighten($color-sk-2, 10%);
+$input-color: $color-sk-4;
+$input-disabled-background-color: $color-sk-1;
+$input-disabled-border-color: $color-sk-2;
+$input-disabled-color: $color-sk-2;
+$input-disabled-placeholder-color: lighten($color-sk-2, 10%);

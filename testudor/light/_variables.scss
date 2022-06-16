@@ -1,0 +1,43 @@
+//------------------
+$primary: $purple !default;
+$code: darken(red, 5);
+$content-heading-color: $black;
+$yellow-invert: $white-ter;
+$border: $grey;
+//subtitle
+$subtitle-color: darken($grey, 20);
+//footer
+$footer-background-color: $white-ter;
+//text
+$text: $black;
+$text-light: lighten($black, 10);
+$text-strong: darken($black, 5);
+//box
+$box-color: $text;
+$box-background-color: $white-ter;
+$box-shadow: none;
+//link
+$link: $turquoise;
+$link-hover: darken($link, 10);
+$link-focus: darken($link, 10);
+$link-active: darken($link, 10);
+//button
+$button-color: $primary;
+$button-hover-color: darken($text, 5); // text-dark
+$button-focus: darken($text, 5); // text-dark
+$button-active-color: darken($text, 5); // text-dark
+$button-hover-background-color: rgba($black, 0.4);
+//navbar
+$navbar-background-color: $white-ter;
+$navbar-item-color: $black;
+$navbar-item-hover-color: $black;
+$navbar-item-hover-background-color: rgba($black, 0.1);
+$navbar-item-active-color: $link;
+$navbar-dropdown-arrow: $black;
+$navbar-dropdown-background-color: $white-ter;
+$navbar-divider-background-color: $grey-lighter;
+$navbar-dropdown-border-top: 1px solid $navbar-divider-background-color;
+$navbar-dropdown-item-hover-color: $black;
+$navbar-dropdown-item-hover-background-color: rgba($black, 0.1);
+$navbar-dropdown-item-active-background-color: transparent;
+$navbar-dropdown-item-active-color: $link;

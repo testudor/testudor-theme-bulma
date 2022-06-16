@@ -1,0 +1,20 @@
+//Import fonts
+$bulmaswatch-import-font: true !default;
+@if $bulmaswatch-import-font {
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+}
+
+//Set font families
+$family-monospace: 'Fira Code',
+monospace;
+$family-primary: 'JetBrains Mono',
+monospace;
+$family-heading: 'Chakra Petch',
+sans-serif;
+//Code
+$family-code: $family-monospace;
+//Weight
+$content-heading-weight: 600;
+$body-weight: 200;
