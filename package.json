@@ -1,6 +1,6 @@
 {
   "name": "testudor-theme-bulma",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Jakob Högerl",
   "license": "MIT",
   "source": "src/index.html",
